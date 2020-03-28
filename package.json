@@ -1,0 +1,27 @@
+{
+  "name": "node.js-miwifi-mesh-2.4g-5g-separator",
+  "version": "0.0.1",
+  "description": "分离小米路由器Mesh的2.4G和5G信号",
+  "main": "app.js",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "fs": "0.0.1-security",
+    "readline": "^1.3.0",
+    "readline-sync": "^1.4.10",
+    "sync-request": "^6.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Runc2333/Node.js-MiWiFi-Mesh-2.4G-5G-Separator.git"
+  },
+  "author": "Runc2333",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Runc2333/Node.js-MiWiFi-Mesh-2.4G-5G-Separator/issues"
+  },
+  "homepage": "https://github.com/Runc2333/Node.js-MiWiFi-Mesh-2.4G-5G-Separator#readme"
+}
