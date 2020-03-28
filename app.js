@@ -40,7 +40,7 @@ rl.question("请输入阁下的路由器IP地址, 通常为192.168.31.1\n路由�
         console.log(`正在尝试从路由器获取Token...`);
         var url = `http://${ipaddr}/cgi-bin/luci/api/xqsystem/login`;
         var data = `username=admin&password=${encodeURIComponent(psw1)}&logtype=2&nonce=${encodeURIComponent(nonce)}`;
-        console.log(data);
+        // console.log(data);
         try {
             var res = request("POST", url, {
                 headers: {
