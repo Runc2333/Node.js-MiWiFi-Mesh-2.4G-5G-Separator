@@ -7,12 +7,12 @@ const rl = readline.createInterface({
 });
 
 /* 打印程序信息 */
-log.write("**********************************************", "MAIN THREAD", "INFO");
-log.write("*     小米路由器Mesh 双频合一禁用器 v0.0.1     *", "MAIN THREAD", "INFO");
-log.write("*             Written In Node.js             *", "MAIN THREAD", "INFO");
-log.write("*              Build:2020.03.28              *", "MAIN THREAD", "INFO");
-log.write("*              Author: Runc2333              *", "MAIN THREAD", "INFO");
-log.write("**********************************************", "MAIN THREAD", "INFO");
+console.log("**********************************************", "MAIN THREAD", "INFO");
+console.log("*     小米路由器Mesh 双频合一禁用器 v0.0.1     *", "MAIN THREAD", "INFO");
+console.log("*             Written In Node.js             *", "MAIN THREAD", "INFO");
+console.log("*              Build:2020.03.28              *", "MAIN THREAD", "INFO");
+console.log("*              Author: Runc2333              *", "MAIN THREAD", "INFO");
+console.log("**********************************************", "MAIN THREAD", "INFO");
 
 rl.question("请输入阁下的路由器IP地址, 通常为192.168.31.1\n路由器IP地址: ", (ipaddr) => {
     // console.log(`您输入的IP地址是: ${ipaddr}`);
