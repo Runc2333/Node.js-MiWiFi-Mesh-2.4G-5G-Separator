@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 
 /* 打印程序信息 */
 console.log("**********************************************");
-console.log("*       小米路由Mesh双频合一禁用器v0.0.1       *");
+console.log("*      小米路由Mesh双频合一禁用器v0.0.1      *");
 console.log("*             Written In Node.js             *");
 console.log("*              Build:2020.03.28              *");
 console.log("*              Author: Runc2333              *");
@@ -141,7 +141,7 @@ rl.question("请输入阁下的路由器IP地址, 通常为192.168.31.1\n路由�
                 console.log("已成功提交参数, 请等待路由器重启.");
                 console.log("感谢使用!");
                 console.log("**********************************************");
-                console.log("*       小米路由Mesh双频合一禁用器v0.0.1       *");
+                console.log("*      小米路由Mesh双频合一禁用器v0.0.1      *");
                 console.log("*             Written In Node.js             *");
                 console.log("*              Build:2020.03.28              *");
                 console.log("*              Author: Runc2333              *");
