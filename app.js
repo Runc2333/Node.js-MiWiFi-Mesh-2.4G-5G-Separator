@@ -8,7 +8,7 @@ const rl = readline.createInterface({
 
 /* 打印程序信息 */
 console.log("**********************************************");
-console.log("*     小米路由器Mesh 双频合一禁用器 v0.0.1     *");
+console.log("*       小米路由Mesh双频合一禁用器v0.0.1       *");
 console.log("*             Written In Node.js             *");
 console.log("*              Build:2020.03.28              *");
 console.log("*              Author: Runc2333              *");
