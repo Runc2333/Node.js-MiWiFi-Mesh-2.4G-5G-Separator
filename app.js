@@ -41,8 +41,8 @@ rl.question("请输入阁下的路由器IP地址, 通常为192.168.31.1\n路由�
         var psw0 = crypto.createHash("sha1").update(`${password}${key}`).digest('hex');
         var psw1 = crypto.createHash("sha1").update(`${nonce}${psw0}`).digest('hex');
         delete mac, rand, time, psw0;
-        console.log(nonce);
-        console.log(password);
+        // console.log(nonce);
+        // console.log(password);
         console.log(`已生成sha1字符串: ${psw1}`);
         console.log(`正在尝试从路由器获取Token...`);
         var url = `http://${ipaddr}/cgi-bin/luci/api/xqsystem/login`;
